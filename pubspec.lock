@@ -517,6 +517,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
+  splash_view:
+    dependency: "direct main"
+    description:
+      name: splash_view
+      sha256: fd556452e8e51842a2797d0da6862fc5fb6d665ffe57be7213744a5d1e83dda8
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   stack_trace:
     dependency: transitive
     description:

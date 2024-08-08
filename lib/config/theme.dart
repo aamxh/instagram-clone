@@ -8,6 +8,7 @@ class MyTheme {
 
   static final ThemeData dark = ThemeData.dark().copyWith(
     textTheme: MyTextTheme.dark,
+    primaryColor: Colors.black,
     colorScheme: const ColorScheme.dark(secondary: Colors.white),
     scaffoldBackgroundColor: Colors.black,
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
@@ -19,6 +20,7 @@ class MyTheme {
 
   static final ThemeData light = ThemeData(
     textTheme: MyTextTheme.light,
+    primaryColor: Colors.white,
     colorScheme: const ColorScheme.dark(secondary: Colors.black),
     scaffoldBackgroundColor: Colors.white,
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
