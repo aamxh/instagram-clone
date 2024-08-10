@@ -4,7 +4,9 @@ import 'package:instagram_clone/models/post.dart';
 
 class MyPFPW extends StatelessWidget {
 
-  const MyPFPW({super.key});
+  const MyPFPW({super.key, required this.isInHome});
+
+  final bool isInHome;
 
   @override
   Widget build(BuildContext context) {
@@ -56,8 +58,8 @@ class MyPFPW extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 10,),
-            SizedBox(
+            isInHome ? const SizedBox(height: 10,) : Container(),
+            isInHome ? SizedBox(
               width: size.width * 0.22,
               child: Text(
                 'Your Story',
@@ -66,7 +68,7 @@ class MyPFPW extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.center,
               ),
-            ),
+            ) : Container(),
           ],
         ),
       ),

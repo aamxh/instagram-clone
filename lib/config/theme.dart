@@ -16,6 +16,13 @@ class MyTheme {
       unselectedItemColor: MyConstants.grey,
       selectedItemColor: Colors.white,
     ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        foregroundColor: Colors.white,
+        backgroundColor: Colors.grey.shade900,
+        textStyle: GoogleFonts.openSans(fontWeight: FontWeight.w700, fontSize: 14),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(7)),
+      ),),
   );
 
   static final ThemeData light = ThemeData(
@@ -28,6 +35,13 @@ class MyTheme {
       unselectedItemColor: MyConstants.grey,
       selectedItemColor: Colors.black,
     ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        foregroundColor: Colors.white,
+        backgroundColor: MyConstants.grey,
+        textStyle: GoogleFonts.openSans(fontWeight: FontWeight.w800, fontSize: 18),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+      ),),
   );
 
 }

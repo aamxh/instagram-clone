@@ -58,7 +58,7 @@ class HomeV extends StatelessWidget {
                   clipBehavior: Clip.none,
                   itemBuilder: (context, idx) {
                     if (idx == 0) {
-                      return const MyPFPW();
+                      return const MyPFPW(isInHome: true,);
                     } else {
                       return PFPWithStoryW(idx: idx, isStory: true,);
                     }
