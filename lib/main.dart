@@ -1,18 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:instagram_clone/config/theme.dart';
-import 'package:instagram_clone/config/constants.dart';
-import 'package:instagram_clone/views/home.dart';
 import 'package:instagram_clone/views/main.dart';
 import 'package:splash_view/splash_view.dart';
 
 void main() {
-  _initializeApp();
   runApp(const MyApp());
-}
-
-Future<void> _initializeApp() async {
-  WidgetsFlutterBinding.ensureInitialized();
 }
 
 class MyApp extends StatelessWidget {
