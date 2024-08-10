@@ -45,7 +45,7 @@ class MyTextTheme {
     titleSmall: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 20, color: Colors.white),
     bodyLarge: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 18, color: Colors.white),
     bodyMedium: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 16, color: Colors.white),
-    bodySmall: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 14, color: Colors.white),
+    bodySmall: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 13, color: Colors.white),
   );
 
   static final TextTheme light = TextTheme(
@@ -57,7 +57,7 @@ class MyTextTheme {
     titleSmall: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 20, color: Colors.black),
     bodyLarge: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 18, color: Colors.black),
     bodyMedium: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 16, color: Colors.black),
-    bodySmall: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 14, color: Colors.black),
+    bodySmall: GoogleFonts.openSans(fontWeight: FontWeight.normal, fontSize: 13, color: Colors.black),
   );
 
 }

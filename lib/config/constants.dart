@@ -4,7 +4,7 @@ class MyConstants {
 
   MyConstants._();
 
-  static const Color grey = Color(0xff505050);
+  static const Color grey = Color(0xff808080);
   static const Color yellow = Color(0xfff2c75a);
   static const Color violet = Color(0xff702a8c);
   static const Color rose = Color(0xffbf1b57);
@@ -33,11 +33,11 @@ class MyConstants {
     BottomNavigationBarItem(
       icon: ClipRRect(
         borderRadius: BorderRadius.circular(30),
-        child: Image.asset('assets/my_pfp.jpg', width: 30, height: 30,),
+        child: Image.asset('assets/images/my_pfp.jpg', width: 30, height: 30,),
       ),
       activeIcon: ClipRRect(
         borderRadius: BorderRadius.circular(30),
-        child: Image.asset('assets/my_pfp.jpg', width: 30,),
+        child: Image.asset('assets/images/my_pfp.jpg', width: 30,),
       ),
       label: '',
     ),
@@ -67,14 +67,32 @@ class MyConstants {
     BottomNavigationBarItem(
       icon: ClipRRect(
         borderRadius: BorderRadius.circular(30),
-        child: Image.asset('assets/my_pfp.jpg', width: 30,),
+        child: Image.asset('assets/images/my_pfp.jpg', width: 30,),
       ),
       activeIcon: ClipRRect(
         borderRadius: BorderRadius.circular(30),
-        child: Image.asset('assets/my_pfp.jpg', width: 30,),
+        child: Image.asset('assets/images/my_pfp.jpg', width: 30,),
       ),
       label: '',
     ),
+  ];
+
+  static const usersPFPs = [
+    'assets/images/my_pfp.jpg',
+    'assets/images/wilflovattgeo.jpg',
+    'assets/images/othmanalkamees.png',
+    'assets/images/darealboeshi.png',
+    'assets/images/nexus.estin.png',
+    'assets/images/default_pfp.png',
+  ];
+
+  static const usersNames = [
+    'aamxh',
+    'wilflovattgeo',
+    'othmanalkamees',
+    'darealboeshi',
+    'nexus.estin',
+    'vhhxsgn',
   ];
 
 }

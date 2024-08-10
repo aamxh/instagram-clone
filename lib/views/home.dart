@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/config/constants.dart';
+import 'package:instagram_clone/widgets/home.dart';
 
 class HomeV extends StatelessWidget {
 
@@ -42,6 +44,22 @@ class HomeV extends StatelessWidget {
                   ],
                 ),
               ],
+            ),
+            SizedBox(height: size.height * 0.02),
+            SizedBox(
+              height: size.width * 0.3,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 6,
+                clipBehavior: Clip.none,
+                itemBuilder: (context, idx) {
+                  if (idx == 0) {
+                    return const MyPFPW();
+                  } else {
+                    return PFPWithStoryW(idx: idx);
+                  }
+                },
+              ),
             ),
           ],
         ),

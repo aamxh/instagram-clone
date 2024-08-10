@@ -32,7 +32,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/default_pfp.png
-    - assets/my_pfp.jpg
     - assets/logos/
     - assets/icons/
+    - assets/images/
